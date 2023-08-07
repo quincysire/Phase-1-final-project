@@ -1,0 +1,35 @@
+{
+    "advise": [
+      {
+        "id": "1",
+        "givenAdvise": "Congrats! Your mental health is stable. Practice gratitude: Reflect on the good things.",
+        "outcome": "Mentally strong."
+      },
+      {
+        "id": "2",
+        "givenAdvise": "You're stable. Build bonds: Connect and seek support from pals and fam.",
+        "outcome": "Emotionally steady."
+      },
+      {
+        "id": "3",
+        "givenAdvise": "Mindfulness rocks! Relax with meditation, breathing, and yoga.",
+        "outcome": "Feeling zen."
+      },
+      {
+        "id": "4",
+        "givenAdvise": "Tackle stress: Exercise, chat, chill. Remember, help's around!",
+        "outcome": "Not so great."
+      },
+      {
+        "id": "5",
+        "givenAdvise": "Be kind, patient. Talk it out. Recovery's possible!",
+        "outcome": "Struggling a lot."
+      },
+      {
+        "id": "6",
+        "givenAdvise": "Go pro! Talk to a therapist for serious help.",
+        "outcome": "Urgent help!"
+      }
+    ]
+  }
+  
