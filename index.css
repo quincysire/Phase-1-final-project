@@ -1,181 +1,142 @@
 /* Global styles */
 body {
-    font-family: "Comic Sans MS", cursive;
-    line-height: 1.5;
-    margin: 0;
-    background: linear-gradient(to bottom, #ffd700, #90ee90);
-  }
-  
-  a {
-    color: #ff1493;
-    text-decoration: underline;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #87ceeb;
-    border-bottom: 2px solid #ff69b4;
-    padding: 15px;
-  }
-  
-  nav ul {
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 25px;
-  }
-  
-  nav a {
-    font-weight: bold;
-    color: #008000;
-  }
-  
-  #hero {
-    background-image: url("./src/Mind Track.jpg");
-    background-position: center;
-    background-size: cover;
-    color: #fff;
-    padding: 100px;
-    text-align: center;
-  }
-  
- /* Global styles */
-body {
-    font-family: "Comic Sans MS", cursive;
-    line-height: 1.5;
-    margin: 0;
-    background: linear-gradient(to bottom, #ffd700, #90ee90);
-  }
-  
-  a {
-    color: #ff1493;
-    text-decoration: underline;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #87ceeb;
-    border-bottom: 2px solid #ff69b4;
-    padding: 15px;
-  }
-  
-  nav ul {
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 25px;
-  }
-  
-  nav a {
-    font-weight: bold;
-    color: #008000;
-  }
-  
-  /* Hero section styles */
-  #hero h1 {
-    font-size: 3rem;
-    margin-top: 0;
-    color: #800080;
-    text-shadow: 2px 2px #ff8c00;
-  }
-  
-  .btn {
-    background-color: #4b0082;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background-color: #8a2be2;
-    cursor: pointer;
-  }
-  
-  /* About section styles */
-  #about {
-    padding: 50px;
-    text-align: center;
-    background-color: #ffdb58;
-  }
-  
-  #about h2 {
-    font-size: 2rem;
-    color: #ff1493;
-  }
-  
-  /* Services section styles */
-  #services {
-    background-color: #f2f2f2;
-    padding: 200px;
-    text-align: center;
-  }
-  
-  #services h2 {
-    font-size: 2rem;
-    color: #008080;
-  }
-  
-  #services ul {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
-  }
-  
-  #services li {
-    margin-right: 30px;
-  }
-  
-  #services i {
-    color: #333;
-    margin-right: 10px;
-  }
-  
-  /* Contact section styles */
-  #contact {
-    padding: 50px;
-    text-align: center;
-  }
-  
-  #contact h2 {
-    font-size: 2rem;
-    color: #ff6347;
-  }
-  
-  /* ... Other styles ... */
-  
-  /* Take Test section styles */
-  #takeTest {
+  font-family: "Comic Sans MS", cursive;
+  line-height: 1.5;
+  margin: 0;
+  background: linear-gradient(to bottom, #ffd700, #90ee90);
+}
+
+a {
+  color: #ff1493;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #87ceeb;
+  border-bottom: 2px solid #ff69b4;
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 25px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #008000;
+}
+
+/* Hero section styles */
+#hero {
+  background-image: url("./src/Mind Track.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  color: #800080;
+  text-shadow: 2px 2px #ff8c00;
+}
+
+.btn {
+  background-color: #4b0082;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8a2be2;
+  cursor: pointer;
+}
+
+/* About section styles */
+#about {
+  padding: 50px;
+  text-align: center;
+  background-color: #ffdb58;
+}
+
+#about h2 {
+  font-size: 2rem;
+  color: #ff1493;
+}
+
+/* Services section styles */
+#services {
+  background-color: #f2f2f2;
+  padding: 200px;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2rem;
+  color: #008080;
+}
+
+#services ul {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+#services li {
+  margin-right: 30px;
+}
+
+#services i {
+  color: #333;
+  margin-right: 10px;
+}
+
+/* Contact section styles */
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  color: #ff6347;
+}
+
+/* ... Other styles ... */
+
+/* Take Test section styles */
+#takeTest {
+  background-color: #f4424b;
+  animation: color-change 15s ease-in-out infinite;
+}
+
+@keyframes color-change {
+  0% {
     background-color: #f4424b;
-    animation: color-change 15s ease-in-out infinite;
   }
-  
-  @keyframes color-change {
-    0% {
-      background-color: #f4424b;
-    }
-    50% {
-      background-color: #de24f4;
-    }
-    100% {
-      background-color: #4bdcf4;
-    }
+  50% {
+    background-color: #de24f4;
   }
-  
+  100% {
+    background-color: #4bdcf4;
+  }
+}
