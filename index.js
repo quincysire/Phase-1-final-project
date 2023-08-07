@@ -8,7 +8,7 @@ function calculateValue() {
     );
     const totalValue = itemValues.reduce((sum, value) => sum + value, 0);
 
-    fetch('https://my-json-server.typicode.com/Quincy-Sire/Phase-1-final-project/advise')
+    fetch('https://raw.githubusercontent.com/quincysire/Phase-1-final-project/main/db.json')
         .then(response => response.json())
         .then(data => {
             let adviseIndex = data.findIndex(adviseData => totalValue >= adviseData.threshold);
